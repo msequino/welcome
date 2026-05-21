@@ -1,0 +1,50 @@
+# Jekyll Configuration
+
+title: Software Engineer
+description: Curious engineer focused on scalable architectures, streaming data pipelines, distributed systems, game development and Raspberry Pi tinkering.
+author: Manse
+url: "https://yourusername.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# Exclude from processing
+exclude:
+  - .gitignore
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# SCSS compilation
+sass:
+  sass_dir: _sass
+  style: compressed
