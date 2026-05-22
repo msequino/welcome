@@ -3,8 +3,8 @@
 title: Software Engineer
 description: Curious engineer focused on scalable architectures, streaming data pipelines, distributed systems, game development and Raspberry Pi tinkering.
 author: Manse
-url: "https://yourusername.github.io"
-baseurl: ""
+url: "https://msequino.github.io"
+baseurl: "/docs"
 
 # Build settings
 markdown: kramdown
