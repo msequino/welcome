@@ -6,13 +6,15 @@ author: Manuel Sequino
 email: "mansequino@gmail.com"
 url: "https://msequino.github.io"
 baseurl: "/"
+source: docs
 
 # Build settings
 markdown: kramdown
-theme: null
+remote_theme: pages-themes/dinky@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme 
 
 # Collections
 collections:

@@ -26,5 +26,3 @@ When I'm not coding, you'll find me tinkering with Raspberry Pi projects, explor
 ## Let's Connect
 
 I'm always interested in discussing interesting problems, collaborating on projects, or just having a great tech conversation. 
-
-[Get in touch →]({{ '/contact' | relative_url }})

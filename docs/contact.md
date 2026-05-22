@@ -29,7 +29,6 @@ I'd love to hear from you! Whether it's a project collaboration, a question, or 
 
 ## Other Ways to Connect
 
-- **GitHub**: [github.com](https://github.com)
-- **LinkedIn**: [linkedin.com](https://linkedin.com)
-- **Twitter**: [twitter.com](https://twitter.com)
-- **Email**: your.email@example.com
+- **GitHub**: [@msequino](https://github.com/msequino)
+- **LinkedIn**: [manuel.sequino](https://www.linkedin.com/in/mansequino/)
+- **Email**: mansequino@gmail.com

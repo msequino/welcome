@@ -1,0 +1,12 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- Minimalist MS monogram -->
+  <g font-family="Georgia, serif" font-size="90" font-weight="bold" fill="#1a1a1a" text-anchor="middle">
+    <text x="100" y="130" letter-spacing="-8">MS</text>
+  </g>
+  
+  <!-- Accent line below -->
+  <line x1="45" y1="150" x2="155" y2="150" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"/>
+</svg>
