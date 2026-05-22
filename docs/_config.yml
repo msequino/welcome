@@ -2,9 +2,10 @@
 
 title: Software Engineer
 description: Curious engineer focused on scalable architectures, streaming data pipelines, distributed systems, game development and Raspberry Pi tinkering.
-author: Manse
+author: Manuel Sequino
+email: "mansequino@gmail.com"
 url: "https://msequino.github.io"
-baseurl: "/docs"
+baseurl: "/"
 
 # Build settings
 markdown: kramdown
