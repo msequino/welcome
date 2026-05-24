@@ -8,7 +8,9 @@ permalink: /contact/
 
 I'd love to hear from you! Whether it's a project collaboration, a question, or just saying hello.
 
-<form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<div id='data-fs-success'></div>
+
+<form id="my-form" class="contact-form">
     <div class="form-group">
         <label for="name">Name</label>
         <input type="text" id="name" name="name" required>
@@ -25,6 +27,7 @@ I'd love to hear from you! Whether it's a project collaboration, a question, or 
     </div>
     
     <button type="submit" class="btn btn-primary">Send Message</button>
+
 </form>
 
 ## Other Ways to Connect

@@ -92,8 +92,8 @@ permalink: /
     </div>
 </section>
 
-<!--section class="section text-center">
+<-section class="section text-center">
     <h2 class="section-title">Let's Work Together</h2>
     <p>Interested in collaboration or just want to chat? Feel free to reach out.</p>
     <a href="{{ '/contact' | relative_url }}" class="btn btn-primary">Get In Touch</a>
-</section-->
+</section>

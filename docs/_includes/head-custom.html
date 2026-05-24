@@ -1,2 +1,31 @@
 <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/img/favicons/favicon.svg' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+<script>
+    const randomOkMessages = [
+        "Great! Your message has been sent.",
+        "Thanks for reaching out! We'll get back to you soon.",
+        "Your message was successfully sent. We appreciate your feedback!",
+        "Awesome! Your message is on its way to us.",
+        "Thank you! We've received your message and will respond shortly."
+    ];
+    document.addEventListener('DOMContentLoaded', function() {
+        const el = document.getElementById('my-form');
+        el.addEventListener('submit', function(event) {
+            event.preventDefault(); // prevent default form submission
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function() {
+                if (this.readyState == 4) {
+                    const randomMessage = randomOkMessages[Math.floor(Math.random() * randomOkMessages.length)];
+                    // alert(randomMessage);
+                    document.getElementById("my-form").innerHTML = '';
+                    document.getElementById("data-fs-success").innerHTML = '<p>' + randomMessage + '</p>';
+                }
+            };
+            xhr.open("POST", "https://formspree.io/f/mdajlgpy"); 
+            var formData = new FormData(document.getElementById("my-form")); 
+            xhr.send(formData);
+            return false; // prevent default form submission
+        });
+    });
+</script>
