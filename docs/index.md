@@ -6,7 +6,7 @@ permalink: /
 
 <section class="hero">
     <h1 class="hero-title">Scalable Systems & Creative Code</h1>
-    <p class="hero-subtitle">Curious engineer focused on distributed systems, streaming data pipelines, and elegant solutions to complex problems.</p>
+    <p class="hero-subtitle">Curious engineer focused on distributed systems, data pipelines, and elegant solutions to complex problems.</p>
     <div>
         <a href="{{ '/about' | relative_url }}" class="btn btn-primary">Learn About Me</a>
         <a href="{{ '/projects' | relative_url }}" class="btn btn-secondary">View Projects</a>
@@ -42,7 +42,7 @@ permalink: /
             <h3 class="skill-title">Backend & Infra</h3>
             <ul class="skill-list">
                 <li>Distributed Systems</li>
-                <li>Streaming Data Pipelines</li>
+                <li>Data Pipelines (Batch & Real-time)</li>
                 <li>Microservices Architecture</li>
                 <li>Cloud Infrastructure (AWS)</li>
                 <li>Kubernetes & Docker</li>
@@ -51,10 +51,10 @@ permalink: /
         <div class="skill-category">
             <h3 class="skill-title">Languages & Tools</h3>
             <ul class="skill-list">
-                <li>Python, Go, Rust</li>
-                <li>Java, TypeScript</li>
+                <li>Java, Scala, TypeScript</li>
+                <li>Python</li>
                 <li>Apache Kafka, Apache Spark</li>
-                <li>PostgreSQL, Redis</li>
+                <li>PostgreSQL, Mongo, Hazelcast, Redis</li>
                 <li>Git, CI/CD</li>
             </ul>
         </div>
