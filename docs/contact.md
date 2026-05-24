@@ -34,4 +34,4 @@ I'd love to hear from you! Whether it's a project collaboration, a question, or 
 
 - **GitHub**: [@msequino](https://github.com/msequino)
 - **LinkedIn**: [manuel.sequino](https://www.linkedin.com/in/mansequino/)
-- **Email**: [mansequino@gmail.com](mansequin_o@gmail.com)
+- **Email**: mansequino@gmail.com
