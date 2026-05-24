@@ -43,7 +43,7 @@ permalink: /
             <ul class="skill-list">
                 <li>Distributed Systems</li>
                 <li>Data Pipelines (Batch & Real-time)</li>
-                <li>Microservices Architecture</li>
+                <li>Microservices Architecture (Saga Pattern / Orchestration)</li>
                 <li>Cloud Infrastructure (AWS)</li>
                 <li>Kubernetes & Docker</li>
             </ul>
