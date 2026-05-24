@@ -6,7 +6,7 @@ permalink: /projects/
 
 # Projects
 
-A collection of projects I've worked on, spanning distributed systems, streaming data, and creative coding.
+A collection of random projects I've worked on.
 
 <div class="projects-grid">
     {% for project in site.projects %}
