@@ -53,7 +53,7 @@ permalink: /
             <ul class="skill-list">
                 <li>Java, Scala, TypeScript</li>
                 <li>Python</li>
-                <li>Apache Kafka, Apache Spark</li>
+                <li>Apache Kafka, Apache Flink</li>
                 <li>PostgreSQL, Mongo, Hazelcast, Redis</li>
                 <li>Git, CI/CD</li>
             </ul>
