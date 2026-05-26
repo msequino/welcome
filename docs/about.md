@@ -29,4 +29,4 @@ When I'm not coding, I used to spend time with my family, showing my daughter ho
 
 I'm always interested in discussing interesting problems, collaborating on projects, or just having a great tech conversation. 
 
-[Chat me](contact)
+[Chat me](/welcome/contact)
