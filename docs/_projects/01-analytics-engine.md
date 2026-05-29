@@ -5,7 +5,7 @@ tech:
   - Apache Kafka
   - MongoDB
   - Apache Flink SQL
-link: https://github.com
+#link: https://github.com
 ---
 
 ## Overview
