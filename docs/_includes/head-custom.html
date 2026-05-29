@@ -11,21 +11,41 @@
     ];
     document.addEventListener('DOMContentLoaded', function() {
         const el = document.getElementById('my-form');
-        el.addEventListener('submit', function(event) {
-            event.preventDefault(); // prevent default form submission
-            var xhr = new XMLHttpRequest();
-            xhr.onreadystatechange = function() {
-                if (this.readyState == 4) {
-                    const randomMessage = randomOkMessages[Math.floor(Math.random() * randomOkMessages.length)];
-                    // alert(randomMessage);
-                    document.getElementById("my-form").innerHTML = '';
-                    document.getElementById("data-fs-success").innerHTML = '<p>' + randomMessage + '</p>';
-                }
-            };
-            xhr.open("POST", "https://formspree.io/f/mdajlgpy"); 
-            var formData = new FormData(document.getElementById("my-form")); 
-            xhr.send(formData);
-            return false; // prevent default form submission
-        });
+        if(el) {
+            el.addEventListener('submit', function(event) {
+                event.preventDefault(); // prevent default form submission
+                var xhr = new XMLHttpRequest();
+                xhr.onreadystatechange = function() {
+                    if (this.readyState == 4) {
+                        const randomMessage = randomOkMessages[Math.floor(Math.random() * randomOkMessages.length)];
+                        // alert(randomMessage);
+                        document.getElementById("my-form").innerHTML = '';
+                        document.getElementById("data-fs-success").innerHTML = '<p>' + randomMessage + '</p>';
+                    }
+                };
+                xhr.open("POST", "https://formspree.io/f/mdajlgpy"); 
+                var formData = new FormData(document.getElementById("my-form")); 
+                xhr.send(formData);
+                return false; // prevent default form submission
+            });
+        }
+
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.getElementById('nav-menu');
+
+        if (navToggle && navMenu) {
+            navToggle.addEventListener('click', function () {
+                const expanded = this.getAttribute('aria-expanded') === 'true';
+                this.setAttribute('aria-expanded', String(!expanded));
+                navMenu.classList.toggle('open');
+            });
+
+            navMenu.querySelectorAll('.nav-link').forEach(function (link) {
+                link.addEventListener('click', function () {
+                    navToggle.setAttribute('aria-expanded', 'false');
+                    navMenu.classList.remove('open');
+                });
+            });
+        }
     });
 </script>
