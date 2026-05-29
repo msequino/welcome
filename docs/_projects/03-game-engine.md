@@ -2,11 +2,9 @@
 title: Interactive Game Engine (Rust)
 subtitle: A 2D game engine written in Rust exploring both game dev and systems programming
 tech:
-  - Rust
-  - WebGL
-  - Physics Engine
-  - Event System
-link: https://github.com
+  - Python
+  - Raspberry
+link: https://github.com/msequino/RemoteControllerCarServer
 ---
 
 ## Overview
