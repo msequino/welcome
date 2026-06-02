@@ -10,7 +10,7 @@ tech:
 
 ## Overview
 
-This project demonstrates building a production-grade real-time analytics system that ingests and processes customer data from multiple sources (near-real time and batch).
+This project demonstrates building a production-grade system that ingests and processes customer data from multiple sources (near-real time and batch).
 
 ## Key Features
 
