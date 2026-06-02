@@ -1,6 +1,6 @@
 ---
-title: Real-Time Analytics Engine
-subtitle: A distributed system for processing streaming financial market data at scale
+title: Data offloading Engine
+subtitle: A distributed system for processing streaming and batch data at scale
 tech:
   - Apache Kafka
   - MongoDB
