@@ -6,7 +6,7 @@ tech:
   - LangChain
   - Docker
   - CI / CD
-link: https://github.com/your-repo/agentic-platform
+#link: https://github.com/your-repo/agentic-platform
 ---
 
 ## Overview
