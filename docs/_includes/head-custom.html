@@ -9,24 +9,44 @@
         "Awesome! Your message is on its way to us.",
         "Thank you! We've received your message and will respond shortly."
     ];
+
+    const formSpreeEndpoint = "https://formspree.io/f/";
+    const formSpreeId = "mdajlgpy";
+    
+    function getRandomMessage() {
+        const randomIndex = Math.floor(Math.random() * randomOkMessages.length);
+        return randomOkMessages[randomIndex];
+    }
+
     document.addEventListener('DOMContentLoaded', function() {
+        // Do something
+        const termsBox = document.getElementById('terms-box').style.display = "none";
         const el = document.getElementById('my-form');
         if(el) {
             el.addEventListener('submit', function(event) {
                 event.preventDefault(); // prevent default form submission
-                var xhr = new XMLHttpRequest();
-                xhr.onreadystatechange = function() {
-                    if (this.readyState == 4) {
-                        const randomMessage = randomOkMessages[Math.floor(Math.random() * randomOkMessages.length)];
-                        // alert(randomMessage);
-                        document.getElementById("my-form").innerHTML = '';
-                        document.getElementById("data-fs-success").innerHTML = '<p>' + randomMessage + '</p>';
-                    }
-                };
-                xhr.open("POST", "https://formspree.io/f/mdajlgpy"); 
-                var formData = new FormData(document.getElementById("my-form")); 
-                xhr.send(formData);
-                return false; // prevent default form submission
+                const termsCheckbox = document.getElementById('terms');
+                if (termsCheckbox && termsCheckbox.checked) {
+                
+                    var xhr = new XMLHttpRequest();
+                    xhr.onreadystatechange = function() {
+                        if (this.readyState == 4) {
+                            const randomMessage = getRandomMessage();
+                            // alert(randomMessage);
+                            document.getElementById("my-form").innerHTML = '';
+                            document.getElementById("data-fs-success").innerHTML = '<p>' + randomMessage + '</p>';
+                        }
+                    };
+                    xhr.open("POST", formSpreeEndpoint + formSpreeId); 
+                    var formData = new FormData(document.getElementById("my-form")); 
+                    xhr.send(formData);
+                    return false; // prevent default form submission
+                } else {
+                    const randomMessage = getRandomMessage();
+                    document.getElementById("my-form").innerHTML = '';
+                    document.getElementById("data-fs-success").innerHTML = '<p>' + randomMessage + '</p>';
+                }
+
             });
         }
 
@@ -47,5 +67,6 @@
                 });
             });
         }
+
     });
 </script>

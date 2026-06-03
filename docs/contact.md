@@ -26,6 +26,10 @@ I'd love to hear from you! Whether it's a project collaboration, a question, or 
         <textarea id="message" name="message" required></textarea>
     </div>
     
+    <div id="terms-box">
+        <input type="checkbox" id="terms" checked/>
+        <label for="terms">Check the box to send request</label>
+    </div>
     <button type="submit" class="btn btn-primary">Send Message</button>
 
 </form>
