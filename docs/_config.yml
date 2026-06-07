@@ -5,7 +5,7 @@ description: Curious engineer focused on scalable architectures, streaming data 
 author: Manuel Sequino
 email: "mansequino@gmail.com"
 url: "https://msequino.github.io"
-baseurl: "/"
+baseurl: "/welcome"
 source: docs
 
 # Build settings
