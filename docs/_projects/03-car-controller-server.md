@@ -1,5 +1,5 @@
 ---
-title: Remote Controller Car Server (Python)
+title: Remote Controller Car Server
 subtitle: Lightweight Bluetooth RFCOMM server for remote-controlled car control
 tech:
   - Python
