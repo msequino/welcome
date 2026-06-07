@@ -38,4 +38,5 @@ I'd love to hear from you! Whether it's a project collaboration, a question, or 
 
 - **GitHub**: [@msequino](https://github.com/msequino)
 - **LinkedIn**: [manuel.sequino](https://www.linkedin.com/in/mansequino/)
+- **LeetCode**: [msequino](https://leetcode.com/u/msequino/)
 - **Email**: mansequino@gmail.com
