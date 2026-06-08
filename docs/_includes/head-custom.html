@@ -20,9 +20,9 @@
 
     document.addEventListener('DOMContentLoaded', function() {
         // Do something
-        const termsBox = document.getElementById('terms-box').style.display = "none";
         const el = document.getElementById('my-form');
         if(el) {
+            const termsBox = document.getElementById('terms-box').style.display = "none";
             el.addEventListener('submit', function(event) {
                 event.preventDefault(); // prevent default form submission
                 const termsCheckbox = document.getElementById('terms');
