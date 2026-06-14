@@ -36,7 +36,7 @@ I'd love to hear from you! Whether it's a project collaboration, a question, or 
 
 ## Other Ways to Connect
 
-- **GitHub**: [@msequino](https://github.com/msequino)
-- **LinkedIn**: [manuel.sequino](https://www.linkedin.com/in/mansequino/)
-- **LeetCode**: [msequino](https://leetcode.com/u/msequino/)
+- **GitHub**: <a href="https://github.com/msequino" target="_blank" rel="noopener noreferrer">@msequino</a>
+- **LinkedIn**: <a href="https://www.linkedin.com/in/mansequino/" target="_blank" rel="noopener noreferrer">manuel.sequino</a>
+- **LeetCode**: <a href="https://leetcode.com/u/msequino/" target="_blank" rel="noopener noreferrer">msequino</a>
 - **Email**: mansequino@gmail.com
