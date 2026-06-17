@@ -3,7 +3,7 @@ title: AI Code Generator
 subtitle: Enabling AI agents to develop microfrontends from natural-language requirements
 tech:
   - Python
-  - Docker
+  - Azure DevOps
   - CI / CD
   - Boto3
 #link: https://github.com/your-repo/agentic-platform
