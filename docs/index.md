@@ -51,10 +51,9 @@ permalink: /
         <div class="skill-category">
             <h3 class="skill-title">Languages & Tools</h3>
             <ul class="skill-list">
-                <li>Java, Scala, TypeScript</li>
-                <li>Python</li>
+                <li>Java, Scala, TypeScript and Python</li>
                 <li>Apache Kafka, Apache Flink</li>
-                <li>PostgreSQL, Mongo, Hazelcast, Redis</li>
+                <li>PostgreSQL, MongoDB, Hazelcast, Redis</li>
                 <li>Git, CI/CD</li>
             </ul>
         </div>
