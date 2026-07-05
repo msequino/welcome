@@ -1,5 +1,5 @@
 ---
-title: Public site for one of the major Italian banks
+title: Public site for Italian banks
 subtitle: Institutional access point for the bank's customer-facing web experience
 tech:
   - Scala
